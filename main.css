@@ -1,0 +1,61 @@
+@import url("./css/head.css");
+@import url("./css/body.css");
+@import url("./css/foot.css");
+@import url("./css/ohir.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+     font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+:root{
+    --qora:hsla(0, 0%, 20%, 1);
+    --jigaran:hsla(32, 31%, 58%, 1);
+}
+section{
+    padding-top: 150px;
+}
+.immm{
+    &:hover{
+        transition: 1s all ease;
+        transform: scale(1.1);
+    }
+}
+.header-left img{
+    &:hover{
+        transition: 1s all ease;
+        transform: scale(1.1);
+    }
+}
+.Food img{
+    &:hover{
+        transition: 1s all ease;
+        transform: scale(1.1);
+    }
+}
+.domm{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    position: absolute;
+    right: 40px;
+}
+.domm a{
+     color: #000000;
+    transition: all ease 300ms;
+
+    &:hover {
+        transition: all ease 300ms;
+        color: hsla(32, 31%, 58%, 1);
+    }
+}

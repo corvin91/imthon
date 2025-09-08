@@ -1,0 +1,112 @@
+.header-left{
+    background-color: var(--qora);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 467px;
+    height: 1000px;
+    width: 120px;
+}
+header{
+    background-image: url("../img/Rectangle\ 30.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0.1;
+}
+.header-h1{
+    color: white;
+    position: absolute;
+    top: 692px;
+    left: 422px;
+}
+.head-right{
+    position: absolute;
+    top: 30px;
+    left: 900px;
+}
+.head-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.head-right button{
+    border: 1px solid hsla(0, 0%, 20%, 0.2);
+    width: 221px;
+    height: 58px;
+    color: black;
+    background-color: #fff;
+    transition: all ease 300ms;
+    &:hover{
+        color:  #fff;
+        background-color: hsla(32, 31%, 58%, 1);
+        transition: all ease 300ms;
+    }
+}
+.head-right a{
+    color: #fff;
+    transition: all ease 300ms;
+    &:hover{
+        transition: all ease 300ms;
+        color: hsla(32, 31%, 58%, 1);
+    }
+}
+.menu-head {
+    position: absolute;
+    top: 116px;
+    left: 160px;
+}
+.menu-head ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+.header-leftt{
+    background-color: var(--qora);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 467px;
+    height: 1000px;
+    width: 120px;
+    position: absolute;
+    z-index: 0.1;
+}
+.rasm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 198px;
+    justify-content: center;
+    
+}
+.liii li{
+    color: #000000;
+    transition: all ease 300ms;
+    &:hover{
+        color: hsla(32, 31%, 58%, 1);
+        transition: all ease 300ms;
+    }  
+}
+.domm{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    position: absolute;
+    right: 40px;
+}
+.domm a{
+     color: #000000;
+    transition: all ease 300ms;
+
+    &:hover {
+        transition: all ease 300ms;
+        color: hsla(32, 31%, 58%, 1);
+    }
+}

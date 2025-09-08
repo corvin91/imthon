@@ -1,0 +1,155 @@
+.icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.icon-text h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-family: Circe;
+}
+
+.egg {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 104px;
+    padding-bottom: 202px;
+}
+
+.body-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+
+}
+
+.body-btn {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 30px;
+    margin-right: 247px;
+    padding-bottom: 150px;
+
+}
+.menu-body{
+margin-right: 500px;
+padding-bottom: 100px;
+}
+.body-btn button {
+    border: 1px solid hsla(0, 0%, 20%, 0.2);
+    width: 221px;
+    height: 58px;
+    color: black;
+    background-color: #fff;
+    transition: all ease 300ms;
+
+    &:hover {
+        color: #fff;
+        background-color: hsla(32, 31%, 58%, 1);
+        transition: all ease 300ms;
+    }
+}
+
+.body-img {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.Food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 39px;
+    padding-top: 34px;
+}
+
+.Food ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 437px;
+    color: #fff;
+}
+
+footer {
+    background-color: var(--qora);
+}.food-div{
+    &:hover{
+        transition: 1s all ease;
+        transform: scale(1.1);
+    }
+}
+
+.Food li {
+    color: #fff;
+    transition: all ease 300ms;
+
+    &:hover {
+        transition: all ease 300ms;
+        color: hsla(32, 31%, 58%, 1);
+    }
+}
+
+.food-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 306px;
+    height: 404px;
+    text-align: center;
+    border: 1px solid hsla(0, 0%, 20%, 0.2)
+    
+}
+
+.ovqat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 56px;
+}
+.ovqat button{
+  border: 1px solid hsla(0, 0%, 20%, 0.2);
+    width: 113px;
+    height: 42px;
+    color: rgb(255, 255, 255);
+    background-color: var(--jigaran);
+    transition: all ease 300ms;
+
+    &:hover {
+        color: #000000;
+        background-color: #fff;
+        transition: all ease 300ms;
+    }  
+}
+.father{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 168px;
+    gap: 24px;
+    padding-left: 200px;
+}
+menu.html{
+    padding-right: 312px;
+}
